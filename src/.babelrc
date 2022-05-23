@@ -1,0 +1,6 @@
+{
+  "presets": [
+      "@babel/react",
+      "@emotion/babel-preset-css-prop"
+  ]
+}

@@ -1,9 +1,22 @@
 import React from 'react';
-import Bg from './common/Bg';
+import {
+  Bg,
+  Container,
+  Heading,
+  Loader,
+  MainContent,
+} from './common';
 
 function App() {
   return (
-    <Bg>Hello</Bg>
+    <Bg>
+      <Container>
+        <Heading variant="h1">Hello</Heading>
+      </Container>
+      <MainContent>
+        <Loader />
+      </MainContent>
+    </Bg>
   );
 }
 
