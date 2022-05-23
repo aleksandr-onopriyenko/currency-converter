@@ -1,8 +1,9 @@
 import React from 'react';
+import Bg from './common/Bg';
 
 function App() {
   return (
-    <div>Hello</div>
+    <Bg>Hello</Bg>
   );
 }
 
