@@ -22,7 +22,7 @@ function Header() {
   if (isLoading) {
     return (
       <StyledHeader>
-        <StyledContainer>Please wait, currency is loading...</StyledContainer>
+        <StyledContainer>Please wait currency is loading...</StyledContainer>
       </StyledHeader>
     );
   }

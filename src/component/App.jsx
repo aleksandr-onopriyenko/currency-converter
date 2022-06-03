@@ -1,17 +1,17 @@
 import React from 'react';
 import {
   Bg,
-  Loader,
   MainContent,
-} from './common';
-import { Header } from './component';
+} from '../common';
+import { Header } from './index';
+import Calculate from './Calculate/Calculate';
 
 function App() {
   return (
     <Bg>
       <Header />
       <MainContent>
-        <Loader />
+        <Calculate />
       </MainContent>
     </Bg>
   );

@@ -8,7 +8,7 @@ export const apiSlice = createApi({
   endpoints(build) {
     return {
       fetchCurrency: build.query({
-        query(countries = 'UAH') {
+        query(countries) {
           return `/3b2baf166f8c11e3f1651c86/latest/${countries}`;
         },
       }),
