@@ -11,5 +11,5 @@
 ### Used stack technologies:
 
 *   React
-*   Redux/tollkit
+*   Redux/toolkit
 *   SCSS
